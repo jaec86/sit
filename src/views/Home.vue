@@ -9,7 +9,7 @@
         <div class="mx-auto mb-8 p-4 w-32 bg-white rounded-full">
           <img src="@/assets/volleyball.svg"  class="w-full" />
         </div>
-        <div class="font-graduate text-7xl">Water Polo</div>
+        <div class="font-graduate text-7xl">Sharkball Project</div>
         <div class="font-light text-3xl">Sport Technology Project</div>
       </div>
     </div>
@@ -54,7 +54,7 @@
             <div class="absolute -left-16 w-12 h-12 rounded-full bg-yellow"></div>
             <span>Concept</span>
           </div>
-          <p class="py-2">The prototype designed is called the <strong>"Sharkball Project"</strong> and presents a game to help children improve their decision-making skills through visualisations and gasified simulation. In this game, inspired by the classic <strong>"Keep Away"</strong> game where one player aims to intercept the ball from the others, the players form a circle in the water, following the projected visualisation. The main element of the game is the projected shark on the water surface. The shark is projected to approach ('swim') towards the player holding the ball. The throwinf player must, therefore, make sure to pass the ball to one of the receiving players before the shark can reach them. If a player successfully throws the ball to another team player, the shark will flip its swimming direction to move directly towards its 'new' target. If the player throws the ball without reaching one of their team members, they will have to retrieve it before the shark gets the ball.</p>
+          <p class="py-2">The prototype designed is called the <strong>"Sharkball Project"</strong> and presents a game to help children improve their decision-making skills through visualisations and gasified simulation. In this game, inspired by the classic <strong>"Keep Away"</strong> game where one player aims to intercept the ball from the others, the players form a circle in the water, following the projected visualisation. The main element of the game is the projected shark on the water surface. The shark is projected to approach ('swim') towards the player holding the ball. The throwing player must, therefore, make sure to pass the ball to one of the receiving players before the shark can reach them. If a player successfully throws the ball to another team player, the shark will flip its swimming direction to move directly towards its 'new' target. If the player throws the ball without reaching one of their team members, they will have to retrieve it before the shark gets the ball.</p>
           <p class="py-2">To motivate children to go after the ball, when a player becomes the throwing player a circle will be projected around them to show that they are in danger of being caught by the shark. Contrary to the general <strong>"Keep Away"</strong> game where one player is in the middle trying to intercept, <strong>"Sharkball"</strong> is a player versus player game, meaining that there is no motivation for a receiving player to retrieve a ball thrown incorrectly by the throwing player. In other words, the game must always appoint someone as the throwing player who stands to lose a live inless the ball is passed on the next person.</p>
         </div>
         <div class="reltive py-8">
