@@ -64,17 +64,16 @@
       </div>
       <div class="mx-auto px-16 max-w-screen-xl text-blue">
         <div class="relative py-8 text-2xl">
-          <div class="mb-6 ml-6 w-72 h-96 bg-gray float-right"></div>
+          <div class="mb-6 ml-6 w-72 h-96 bg-gray float-right">
+            <img src="@/assets/sharkball3.png" class="object-cover object-center w-full h-full" />
+          </div>
           <div class="font-graduate text-5xl text-light-blue">Conclusion</div>
-          <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="py-2">Since the interactive projections are novel and interesting, Sharkball draws and keeps the attention of the players to the game. As shown in 3 a focus on the engagement prepares young players for demanding expertise trainings later. Besides, this conditioned game play improves decision making by challenging players to think fast, to execute passes with certain precision and consider options, for instance on gaining lives by hitting the submarine.</p>
+          <p class="py-2">For further improvement, the game could be designed to be adaptable to different levels and age groups of players. The more fundamental way to achieve this could be by adapting the shark speed, the number of blocked players and the popping up frequency of sea otters or other creatures. Thinking about the whole interaction flow and its modality, the visualization elements is mainly keeping the storyline, the visual and audio feedback will also improve the engagement and fun, but we believe that we will get more insights from sonification and haptics cases to improve our design, which also rely on the support of technology and field development. Furthermore, we could think about how to engage players into the game even if they lose all the points. Especially for children, this will be important for them to feel comfortable and a sense of participation. For this, the perspective of pedagogy and didactics would be valuable.</p>
         </div>
       </div>
     </div>
     <div class="pl-8 pt-8 pb-16 w-full bg-white">
-      <div class="mx-auto max-w-screen-xl px-16 py-8">
-        <img src="@/assets/video-preview.png" class="w-full" />
-      </div>
       <div class="mx-auto max-w-screen-xl px-16 py-8">
         <img src="@/assets/video-preview.png" class="w-full" />
       </div>
