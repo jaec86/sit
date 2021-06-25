@@ -26,7 +26,7 @@
             <div class="mb-4 mt-8 font-graduate text-light-blue text-3xl">Zhirou Sun</div>
             <div>Interaction Technology</div>
             <div>(EMMCS faculty)</div>
-            <a href="mailto:m.a.h.c.snijders@student.utwente.nl">z.sun@student.utwente.nl</a>
+            <a href="mailto:z.sun@student.utwente.nl">z.sun@student.utwente.nl</a>
           </div>
           <div class="px-12 py-16 text-2xl">
             <div class="mx-auto w-48 h-48 rounded-full bg-gray overflow-hidden">
@@ -35,7 +35,7 @@
             <div class="mb-4 mt-8 font-graduate text-light-blue text-3xl">Angelique van Leeuwen</div>
             <div>Biomedical Engineering</div>
             <div>(S&T faculty)</div>
-            <a href="mailto:m.a.h.c.snijders@student.utwente.nl">a.a.m.valeeuwen@student.utwente.nl</a>
+            <a href="mailto:a.a.m.valeeuwen@student.utwente.nl">a.a.m.valeeuwen@student.utwente.nl</a>
           </div>
           <div class="px-12 py-16 text-2xl">
             <div class="mx-auto w-48 h-48 rounded-full bg-gray overflow-hidden">
@@ -44,7 +44,7 @@
             <div class="mb-4 mt-8 font-graduate text-light-blue text-3xl">Andrea Gaytan</div>
             <div>Engineering Technology</div>
             <div>(ET faculty)</div>
-            <a href="mailto:m.a.h.c.snijders@student.utwente.nl">agaytamalvizo@student.utwente.nl</a>
+            <a href="mailto:agaytanalvizo@student.utwente.nl">agaytanalvizo@student.utwente.nl</a>
           </div>
           <div class="px-12 py-16 text-2xl">
             <div class="mx-auto w-48 h-48 rounded-full bg-gray overflow-hidden">
@@ -53,7 +53,7 @@
             <div class="mb-4 mt-8 font-graduate text-light-blue text-3xl">Javier Estupinan</div>
             <div>Interaction Technology</div>
             <div>(EEMCS faculty)</div>
-            <a href="mailto:m.a.h.c.snijders@student.utwente.nl">j.a.estupinancoello@student.utwente.nl</a>
+            <a href="mailto:j.a.estupinancoello@student.utwente.nl">j.a.estupinancoello@student.utwente.nl</a>
           </div>
         </div>
       </div>
