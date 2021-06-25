@@ -48,7 +48,7 @@
           </div>
           <div class="px-12 py-16 text-2xl">
             <div class="mx-auto w-48 h-48 rounded-full bg-gray overflow-hidden">
-              <img src="@/assets/javier.jpeg" class="w-full h-full object-cover object-center" />
+              <img src="@/assets/javier.jpg" class="w-full h-full object-cover object-center" />
             </div>
             <div class="mb-4 mt-8 font-graduate text-light-blue text-3xl">Javier Estupinan</div>
             <div>Interaction Technology</div>
