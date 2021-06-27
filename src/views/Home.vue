@@ -27,8 +27,8 @@
         </div>
       </div>
     </div>
-    <div class="pl-8 w-full bg-white">
-      <div class="relative mx-auto pt-16 px-16 max-w-screen-xl text-blue">
+    <div class="pl-8 pb-16 w-full bg-white">
+      <div class="relative mx-auto pt-16 pb-8 px-16 max-w-screen-xl text-blue">
         <div class="absolute top-0 left-6 h-full border-l-2 border-blue border-dashed"></div>
         <div class="relative py-8">
           <div class="mb-4 ml-4 w-96 h-80 bg-gray float-right">
@@ -39,6 +39,30 @@
             <span>Problem Statement</span>
           </div>
           <p class="py-2 italic">How can we improve the <strong>decision-making skill</strong> of <strong>children</strong> (aged 6-12) learning <strong>water polo</strong> to increase their in-game <strong>performance</strong> and sports <strong>enjoyment</strong>?</p>
+          <p class="relative pl-7 py-2">
+            <svg class="absolute top-3 left-0 w-4 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Improve <strong>decision-making</strong> skills</span>
+          </p>
+          <p class="relative pl-7 py-2">
+            <svg class="absolute top-3 left-0 w-4 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Ensure <strong>high transfer</strong></span>
+          </p>
+          <p class="relative pl-7 py-2">
+            <svg class="absolute top-3 left-0 w-4 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Prepare children for <strong>future</strong> water polo matches</span>
+          </p>
+          <p class="relative pl-7 py-2">
+            <svg class="absolute top-3 left-0 w-4 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Let children have <strong>fun</strong> and be <strong>engaged</strong> with the sport</span>
+          </p>
         </div>
         <div class="relative py-8">
           <div class="relative flex items-center py-8 font-graduate text-light-blue text-3xl">
@@ -87,10 +111,17 @@
         <div class="reltive py-8">
           <div class="relative flex items-center py-8 font-graduate text-light-blue text-3xl">
             <div class="absolute -left-16 w-12 h-12 rounded-full bg-yellow"></div>
-            <span>Gameplay</span>
+            <span>Gameplay & Controls</span>
           </div>
-          <div class="absolute left-6 w-1/2 h-1/4 border-2 border-dashed" style="margin-top: 30%; border-left-color: #ffffff; border-bottom-color: #ffffff; border-right-color: #ffffff; border-left-style: solid; border-bottom-style: solid; border-right-style: solid;"></div>
-          <img src="@/assets/sharkball-play.gif" class="relative w-full" />
+          <div class="absolute left-6 w-1/2 h-1/4 border-2 border-dashed" style="margin-top: 20%; border-left-color: #ffffff; border-bottom-color: #ffffff; border-right-color: #ffffff; border-left-style: solid; border-bottom-style: solid; border-right-style: solid;"></div>
+          <div class="relative flex items-center">
+            <div class="w-3/4">
+              <img src="@/assets/sharkball-play.gif"/>
+            </div>
+            <div class="pl-8 w-1/4">
+              <img src="@/assets/sharkball-app.jpg" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="mx-auto px-16 max-w-screen-xl text-blue">
@@ -99,14 +130,56 @@
             <img src="@/assets/sharkball3.png" class="object-cover object-center w-full h-full" />
           </div>
           <div class="font-graduate text-5xl text-light-blue">Conclusion</div>
-          <p class="py-2">Since the interactive projections are novel and interesting, <strong>Sharkball</strong> draws and keeps the attention of the young players. This engagement helps the players prepare for the more skill-intensive game later on in their water polo careers. The most important focus of the game is the training of the decision-making skills of the players, which will help them both in their own matches and as they further develop into the more tactical and fast-paced game of water polo. The game improves decision-making by challenging players to quickly assess the game field as it is presented to them at any moment, take the different in-game elements into account and decide which passing strategy is the most optimal - all before the shark catches them.</p>
-          <p class="py-2">For further improvement, the game could be designed to be more appropriate for older age groups, who right now might find the visualisations too childish. For the entire interaction flow and used modalities, further improvements could be to include audification of in-game elements and the use of haptics. The visualisations themselves should have a natural design in which the in-game elements are self-explanatory, and the flow of the game is preserved. Furthermore, additional pedagogy and didactical theories could be applied in the game to increase engagement and effective training for children as they are introduced and progress in the game.</p>
+          <p class="py-2">With interactive projections, Sharkball draws and keeps the attention of young players. This engagement helps the players improve their decision-making skills through the game. Benefits of the game include the following:</p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Strong improvement of decision-making skills</span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Strong improvement of <strong>decision-making skills</strong></span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Training in a <strong>rich learning environment</strong></span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Players are <strong>motivated</strong> to develop their skills</span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>A <strong>fun</strong> and <strong>engaging</strong> setup</span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Using <strong>intuitive</strong> gameplay</span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span><strong>User-friendly</strong> controls</span>
+          </p>
+          <p class="relative pl-10 py-2">
+            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
+            </svg>
+            <span>Adaptability to different <strong>difficulty levels</strong></span>
+          </p>
         </div>
-      </div>
-    </div>
-    <div class="pl-8 pt-8 pb-16 w-full bg-white">
-      <div class="mx-auto max-w-screen-xl px-16 py-8">
-        <img src="@/assets/video-preview.png" class="w-full" />
       </div>
     </div>
     <portal to="modals">
