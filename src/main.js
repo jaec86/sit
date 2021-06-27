@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import './styles/app.pcss';
+import PortalVue from 'portal-vue'
+import './styles/app.pcss'
 
 Vue.config.productionTip = false
+
+Vue.use(PortalVue)
 
 new Vue({
   router,

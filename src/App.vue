@@ -21,5 +21,6 @@
       </div>
       <img src="@/assets/ut-logo.png" class="mx-auto w-70" />
     </div>
+    <portal-target name="modals"></portal-target>
   </div>
 </template>
