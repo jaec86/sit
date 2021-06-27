@@ -6,36 +6,36 @@
         <div class="absolute inset-0 bg-light-blue mix-blend-multiply"></div>
       </div>
       <div class="relative text-yellow text-center">
-        <div class="mx-auto mb-8 p-4 w-32 bg-white rounded-full">
+        <div class="mx-auto mb-8 p-4 w-24 sm:w-32 bg-white rounded-full">
           <img src="@/assets/volleyball.svg"  class="w-full" />
         </div>
-        <div class="font-graduate text-7xl">The Sharkball Project</div>
-        <div class="font-light text-3xl">Sport Interaction Technology</div>
+        <div class="font-graduate text-4xl sm:text-7xl">The Sharkball Project</div>
+        <div class="font-light text-3xl sm:text-3xl">Sport Interaction Technology</div>
       </div>
     </div>
     <div class="w-full h-9 bg-blue"></div>
     <div class="py-12 w-full bg-yellow text-blue text-center">
-      <div class="mx-auto max-w-4xl">
-        <div class="font-graduate text-7xl">About Our Project</div>
-        <div class="my-8 text-2xl">Water polo is a high-intensity sport that demands a lot of strength and intensity. It's a high-impact sport that needs a high level of strategic thinking in addition to physical endurance. To improve the decision-making skill of young water polo players, the <strong>“Sharkball Project”</strong> was created. Our setup uses interactive visualisations projected on the water surface that create a gamified interaction to support and motivate the players' learning process</div>
+      <div class="mx-auto max-w-4xl px-8">
+        <div class="font-graduate text-4xl sm:text-7xl">About Our Project</div>
+        <div class="my-8 text-lg sm:text-2xl">Water polo is a high-intensity sport that demands a lot of strength and intensity. It's a high-impact sport that needs a high level of strategic thinking in addition to physical endurance. To improve the decision-making skill of young water polo players, the <strong>“Sharkball Project”</strong> was created. Our setup uses interactive visualisations projected on the water surface that create a gamified interaction to support and motivate the players' learning process</div>
       </div>
     </div>
     <div class="pl-8 pt-16 w-full bg-white">
-      <div class="mx-auto max-w-screen-xl pt-8 pl-6 pr-16">
+      <div class="mx-auto max-w-screen-xl pt-8 sm:pl-6 pr-8 sm:pr-16">
         <div class="relative flex flex-col justify-center items-center">
           <img src="@/assets/ideation.svg" class="w-full" />
         </div>
       </div>
     </div>
     <div class="pl-8 pb-16 w-full bg-white">
-      <div class="relative mx-auto pt-16 pb-8 px-16 max-w-screen-xl text-blue">
-        <div class="absolute top-0 left-6 h-full border-l-2 border-blue border-dashed"></div>
+      <div class="relative mx-auto pt-16 pb-8 px-8 sm:px-16 max-w-screen-xl text-blue">
+        <div class="absolute top-0 left-2 sm:left-6 h-full border-l-2 border-blue border-dashed"></div>
         <div class="relative py-8">
-          <div class="mb-4 ml-4 w-96 h-80 bg-gray float-right">
+          <div class="hidden sm:block mb-4 ml-4 w-96 h-80 bg-gray float-right">
             <img src="@/assets/sharkball1.png" class="object-cover object-center w-full h-full" />
           </div>
-          <div class="relative flex items-center py-8 font-graduate text-light-blue text-3xl">
-            <div class="absolute -left-16 w-12 h-12 rounded-full bg-yellow"></div>
+          <div class="relative flex items-center py-8 font-graduate text-light-blue text-xl sm:text-3xl">
+            <div class="absolute -left-10 sm:-left-16 w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-yellow"></div>
             <span>Problem Statement</span>
           </div>
           <p class="py-2 italic">How can we improve the <strong>decision-making skill</strong> of <strong>children</strong> (aged 6-12) learning <strong>water polo</strong> to increase their in-game <strong>performance</strong> and sports <strong>enjoyment</strong>?</p>
@@ -63,45 +63,48 @@
             </svg>
             <span>Let children have <strong>fun</strong> and be <strong>engaged</strong> with the sport</span>
           </p>
+          <div class="sm:hidden pt-8 max-w-sm">
+            <img src="@/assets/sharkball1.png" />
+          </div>
         </div>
         <div class="relative py-8">
-          <div class="relative flex items-center py-8 font-graduate text-light-blue text-3xl">
-            <div class="absolute -left-16 w-12 h-12 rounded-full bg-yellow"></div>
+          <div class="relative flex items-center py-8 font-graduate text-light-blue text-xl sm:text-3xl">
+            <div class="absolute -left-10 sm:-left-16 w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-yellow"></div>
             <span>Prototype</span>
           </div>
           <p class="py-2">The prototype design is called the <strong>"Sharkball Project"</strong> and presents a game to help children improve their decision-making skills through visualisations and gasified simulation. In this game, inspired by the classic <strong>"Keep Away"</strong> game where one player aims to intercept the ball from the others, the players form a circle in the water, following the projected visualisation.</p>
           <div class="flex flex-wrap justify-center">
-            <div class="w-1/3 p-8">
+            <div class="w-full sm:w-1/2 lg:w-1/3 p-8">
               <img src="@/assets/sharkball2.png" />
-              <div class="flex justify-between items-center p-4 bg-yellow font-graduate text-xl">
+              <div class="flex justify-between items-center p-4 bg-yellow font-graduate sm:text-xl">
                 <span>Shark</span>
                 <button class="p-2 rounded bg-light-blue hover:bg-blue text-white text-sm font-roboto transition duration-500 outline-none focus:outline-none" @click="modal = 'shark'">MORE</button>
               </div>
             </div>
-            <div class="w-1/3 p-8">
+            <div class="w-full sm:w-1/2 lg:w-1/3 p-8">
               <img src="@/assets/sharkball3.png" />
-              <div class="flex justify-between items-center p-4 bg-yellow font-graduate text-xl">
+              <div class="flex justify-between items-center p-4 bg-yellow font-graduate sm:text-xl">
                 <span>Octopus</span>
                 <button class="p-2 rounded bg-light-blue hover:bg-blue text-white text-sm font-roboto transition duration-500 outline-none focus:outline-none" @click="modal = 'octopus'">MORE</button>
               </div>
             </div>
-            <div class="w-1/3 p-8">
+            <div class="w-full sm:w-1/2 lg:w-1/3 p-8">
               <img src="@/assets/sharkball4.png" />
-              <div class="flex justify-between items-center p-4 bg-yellow font-graduate text-xl">
+              <div class="flex justify-between items-center p-4 bg-yellow font-graduate sm:text-xl">
                 <span>Jellyfish</span>
                 <button class="p-2 rounded bg-light-blue hover:bg-blue text-white text-sm font-roboto transition duration-500 outline-none focus:outline-none" @click="modal = 'jellyfish'">MORE</button>
               </div>
             </div>
-            <div class="w-1/3 p-8">
+            <div class="w-full sm:w-1/2 lg:w-1/3 p-8">
               <img src="@/assets/sharkball5.png" />
-              <div class="flex justify-between items-center p-4 bg-yellow font-graduate text-xl">
+              <div class="flex justify-between items-center p-4 bg-yellow font-graduate sm:text-xl">
                 <span>Sea Otters</span>
                 <button class="p-2 rounded bg-light-blue hover:bg-blue text-white text-sm font-roboto transition duration-500 outline-none focus:outline-none" @click="modal = 'otters'">MORE</button>
               </div>
             </div>
-            <div class="w-1/3 p-8">
+            <div class="w-full sm:w-1/2 lg:w-1/3 p-8">
               <img src="@/assets/sharkball6.png" />
-              <div class="flex justify-between items-center p-4 bg-yellow font-graduate text-xl">
+              <div class="flex justify-between items-center p-4 bg-yellow font-graduate sm:text-xl">
                 <span>Submarine</span>
                 <button class="p-2 rounded bg-light-blue hover:bg-blue text-white text-sm font-roboto transition duration-500 outline-none focus:outline-none" @click="modal = 'submarine'">MORE</button>
               </div>
@@ -109,34 +112,28 @@
           </div>
         </div>
         <div class="reltive py-8">
-          <div class="relative flex items-center py-8 font-graduate text-light-blue text-3xl">
-            <div class="absolute -left-16 w-12 h-12 rounded-full bg-yellow"></div>
+          <div class="relative flex items-center py-8 font-graduate text-light-blue text-xl sm:text-3xl">
+            <div class="absolute -left-10 sm:-left-16 w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-yellow"></div>
             <span>Gameplay & Controls</span>
           </div>
-          <div class="absolute left-6 w-1/2 h-1/4 border-2 border-dashed" style="margin-top: 20%; border-left-color: #ffffff; border-bottom-color: #ffffff; border-right-color: #ffffff; border-left-style: solid; border-bottom-style: solid; border-right-style: solid;"></div>
-          <div class="relative flex items-center">
-            <div class="w-3/4">
+          <div class="absolute left-2 sm:left-6 w-1/2 h-1/4 border-2 border-dashed" style="margin-top: 20%; border-left-color: #ffffff; border-bottom-color: #ffffff; border-right-color: #ffffff; border-left-style: solid; border-bottom-style: solid; border-right-style: solid;"></div>
+          <div class="relative md:flex items-center">
+            <div class="w-full md:w-3/4">
               <img src="@/assets/sharkball-play.gif"/>
             </div>
-            <div class="pl-8 w-1/4">
-              <img src="@/assets/sharkball-app.jpg" />
+            <div class="pt-8 md:pt-0 md:pl-8 w-full md:w-1/4">
+              <img src="@/assets/sharkball-app.jpg" class="mx-auto w-48 md:w-full" />
             </div>
           </div>
         </div>
       </div>
-      <div class="mx-auto px-16 max-w-screen-xl text-blue">
-        <div class="relative py-8 text-2xl">
-          <div class="mb-6 ml-6 w-72 h-96 bg-gray float-right">
+      <div class="mx-auto px-8 sm:px-16 max-w-screen-xl text-blue">
+        <div class="relative py-8 text-lg sm:text-2xl">
+          <div class="hidden sm:block mb-6 ml-6 w-72 h-96 bg-gray float-right">
             <img src="@/assets/sharkball3.png" class="object-cover object-center w-full h-full" />
           </div>
-          <div class="font-graduate text-5xl text-light-blue">Conclusion</div>
+          <div class="font-graduate text-3xl sm:text-5xl text-light-blue">Conclusion</div>
           <p class="py-2">With interactive projections, Sharkball draws and keeps the attention of young players. This engagement helps the players improve their decision-making skills through the game. Benefits of the game include the following:</p>
-          <p class="relative pl-10 py-2">
-            <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
-              <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />
-            </svg>
-            <span>Strong improvement of decision-making skills</span>
-          </p>
           <p class="relative pl-10 py-2">
             <svg class="absolute top-3 left-0 w-6 text-light-blue" viewBox="0 0 24 24">
               <path fill="currentColor" d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" />

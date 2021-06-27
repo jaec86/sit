@@ -5,7 +5,7 @@
     </transition>
     <transition enter-class="translate-y-full opacity-0" leave-to-class="translate-y-full opacity-0">
       <div v-if="ready" class="relative w-full max-w-screen-md max-h-full text-blue transform overflow-scroll transition-all duration-500">
-        <div class="sticky top-0 p-8 bg-yellow font-graduate text-3xl">
+        <div class="sticky top-0 p-8 bg-yellow font-graduate text-xl sm:text-3xl">
           <slot name="title"></slot>
           <button class="absolute top-0 right-0 mt-6 mr-6 focus:outline-none" @click="close">
             <svg class="w-6 h-6 text-light-blue" viewBox="0 0 24 24">
