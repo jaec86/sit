@@ -179,6 +179,7 @@
             </svg>
             <span>Adaptability to different <strong>difficulty levels</strong></span>
           </p>
+          <p class="py-2">The development of the Sharkball project requires further prototyping and testing to perfect its gameplay and skills-development technique. Are you interested in contributing to our mission of helping children improve their skills and be engaged in this incredible sport? <router-link :to="{ name: 'About' }" class="font-bold text-light-blue">Contact us</router-link> to find out more!</p>
         </div>
       </div>
     </div>
